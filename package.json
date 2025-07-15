@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
+		"export": "next export",
 		"start": "next start",
 		"lint": "next lint",
 		"generate": "npx prisma generate",
@@ -15,7 +16,7 @@
 	},
 	"dependencies": {
 		"@faker-js/faker": "^8.0.2",
-		"@prisma/client": "^5.2.0",
+		"@prisma/client": "^6.8.2",
 		"@reduxjs/toolkit": "^1.9.5",
 		"@types/node": "20.5.8",
 		"@types/react": "18.2.21",
@@ -33,7 +34,7 @@
 	},
 	"devDependencies": {
 		"prettier": "^3.0.3",
-		"prisma": "^5.2.0",
+		"prisma": "^6.8.2",
 		"ts-node": "^10.9.1"
 	}
 }
