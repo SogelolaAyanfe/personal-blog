@@ -11,7 +11,7 @@
 		"generate": "npx prisma generate",
 		"push": "npx prisma db push",
 		"studio": "npx prisma studio",
-		"seed": "ts-node --transpile-only prisma/seed.ts --preview-feature",
+		
 		"format": "npx prisma format && prettier . --write"
 	},
 	"dependencies": {
