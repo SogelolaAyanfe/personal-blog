@@ -16,6 +16,7 @@ const feedSomeData = async (length: number) => {
 				email: faker.internet.email(),
 				avatar: faker.internet.avatar(),
 				role: 'user',
+				content: faker.lorem.paragraphs(3),
 			} as unknown as any
 		}
 
